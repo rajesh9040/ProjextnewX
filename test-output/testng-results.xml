@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-26T19:32:01 IST" name="Suite" finished-at="2024-06-26T19:33:17 IST" duration-ms="75445">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T19:32:01 IST" name="Test" finished-at="2024-06-26T19:33:17 IST" duration-ms="75445">
+      <class name="Login.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Login.Login@65f8f5ae]" started-at="2024-06-26T19:32:01 IST" name="setUp" finished-at="2024-06-26T19:32:50 IST" duration-ms="49013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cred()[pri:0, instance:Login.Login@65f8f5ae]" started-at="2024-06-26T19:32:50 IST" name="cred" finished-at="2024-06-26T19:32:51 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="Selectcompany()[pri:0, instance:Login.Login@65f8f5ae]" started-at="2024-06-26T19:32:51 IST" name="Selectcompany" finished-at="2024-06-26T19:32:54 IST" depends-on-methods="Login.Login.cred" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectcompany -->
+        <test-method signature="Tripss()[pri:0, instance:Login.Login@65f8f5ae]" started-at="2024-06-26T19:32:54 IST" name="Tripss" finished-at="2024-06-26T19:32:55 IST" depends-on-methods="Login.Login.Selectcompany" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tripss -->
+        <test-method signature="CheckBox()[pri:0, instance:Login.Login@65f8f5ae]" started-at="2024-06-26T19:32:55 IST" name="CheckBox" finished-at="2024-06-26T19:33:16 IST" depends-on-methods="Login.Login.Tripss" duration-ms="20977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBox -->
+        <test-method signature="log()[pri:0, instance:Login.Login@65f8f5ae]" started-at="2024-06-26T19:33:16 IST" name="log" finished-at="2024-06-26T19:33:17 IST" depends-on-methods="Login.Login.CheckBox" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+      </class> <!-- Login.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
